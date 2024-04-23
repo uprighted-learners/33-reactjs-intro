@@ -1,6 +1,7 @@
 import React from 'react'
 import HiMom from './components/HiMom'
 import Counter from './components/Counter'
+import NameForm from './components/NameForm'
 
 export default function App() {
     return (
@@ -10,6 +11,7 @@ export default function App() {
                 name="Mama"
             />
             <Counter />
+            <NameForm />
         </>
     )
 }
